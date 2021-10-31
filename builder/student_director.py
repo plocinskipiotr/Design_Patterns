@@ -9,7 +9,7 @@ class AGradeStudentDirector:
         """Constructor method"""
         return StudentBuilder() \
             .with_name('Max') \
-            .with_surename('Smith') \
+            .with_surname('Smith') \
             .with_age(22) \
             .with_mean(5.0) \
             .get_result()
@@ -23,7 +23,7 @@ class BGradeStudentDirector:
         """Constructor method"""
         return StudentBuilder() \
             .with_name('Antoni') \
-            .with_surename('Newcomer') \
+            .with_surname('Newcomer') \
             .with_age(22) \
             .with_mean(4.0) \
             .get_result()
@@ -37,7 +37,7 @@ class CGradeStudentDirector:
         """Constructor method"""
         return StudentBuilder() \
             .with_name('Vincent') \
-            .with_surename('Schroeder') \
+            .with_surname('Schroeder') \
             .with_age(22) \
             .with_mean(3.0) \
             .get_result()
@@ -51,7 +51,7 @@ class DGradeStudentDirector:
         """Constructor method"""
         return StudentBuilder() \
             .with_name('Mark') \
-            .with_surename('Zuecker') \
+            .with_surname('Zuecker') \
             .with_age(22) \
             .with_mean(2.0) \
             .get_result()

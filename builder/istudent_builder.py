@@ -13,7 +13,7 @@ class IStudentBuilder(ABC):
         pass
 
     @abstractmethod
-    def with_surename(self, name):
+    def with_surname(self, name):
         pass
 
     @abstractmethod

@@ -17,7 +17,7 @@ class StudentBuilder(IStudentBuilder):
         return self
 
 
-    def with_surename(self, name):
+    def with_surname(self, name):
         """Set the surname of Student"""
         self.student.surname = name
         return self
