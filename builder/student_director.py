@@ -9,7 +9,7 @@ class AGradeStudentDirector:
         """Constructor method"""
         return StudentBuilder() \
             .with_name('Max') \
-            .with_surename('Kowalski') \
+            .with_surename('Smith') \
             .with_age(22) \
             .with_mean(5.0) \
             .get_result()
@@ -23,7 +23,7 @@ class BGradeStudentDirector:
         """Constructor method"""
         return StudentBuilder() \
             .with_name('Antoni') \
-            .with_surename('Nowak') \
+            .with_surename('Newcomer') \
             .with_age(22) \
             .with_mean(4.0) \
             .get_result()
