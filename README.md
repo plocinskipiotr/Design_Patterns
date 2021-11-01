@@ -1,7 +1,9 @@
 Amateur self development desing pattern course in python
 
 Realised:
-Builder 
+Builder,
+Factory,
+Abstract Factory
 
 Currently working on:
-Factory
+Singleton
