@@ -5,6 +5,7 @@ Builder,
 Factory,
 Abstract Factory,
 Singleton
+Prototype
 
 Currently working on:
-Prototype
+
