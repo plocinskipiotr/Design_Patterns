@@ -1,0 +1,35 @@
+{
+  "root": {
+    "weather": {
+      "timestamp": "2020-04-21T00:00:00+00:00",
+      "source_id": 7003,
+      "precipitation": 0.0,
+      "pressure_msl": 1021.5,
+      "sunshine": null,
+      "temperature": 10.6,
+      "wind_direction": 70,
+      "wind_speed": 12.6,
+      "cloud_cover": 0,
+      "dew_point": -2.5,
+      "relative_humidity": "json-40",
+      "visibility": 50000,
+      "wind_gust_direction": 90,
+      "wind_gust_speed": 27.7,
+      "condition": "dry",
+      "icon": "json-clear-night"
+    },
+    "sources": {
+      "id": 7003,
+      "dwd_station_id": "01766",
+      "observation_type": "historical",
+      "lat": 52.1344,
+      "lon": 7.6969,
+      "height": 47.8,
+      "station_name": "Münster/Osnabrück",
+      "wmo_station_id": "10315",
+      "first_record": "2010-01-01T00:00:00+00:00",
+      "last_record": "2021-11-02T23:00:00+00:00",
+      "distance": 16365.0
+    }
+  }
+}
