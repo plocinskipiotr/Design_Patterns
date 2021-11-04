@@ -4,8 +4,9 @@ Realised:
 Builder,
 Factory,
 Abstract Factory,
-Singleton
-Prototype
+Singleton,
+Prototype,
+Adapter
 
 Currently working on:
-
+Bridge

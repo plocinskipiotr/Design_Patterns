@@ -1,0 +1,33 @@
+<root>
+    <weather>
+        <distance>16365.0</distance>
+        <dwd_station_id>01766</dwd_station_id>
+        <first_record>2010-01-01T00:00:00+00:00</first_record>
+        <height>47.8</height>
+        <id>7003</id>
+        <last_record>2021-11-02T23:00:00+00:00</last_record>
+        <lat>52.1344</lat>
+        <lon>7.6969</lon>
+        <observation_type>historical</observation_type>
+        <station_name>Münster/Osnabrück</station_name>
+        <wmo_station_id>10315</wmo_station_id>
+        <cloud_cover>0</cloud_cover>
+        <condition>XML-dry</condition>
+        <dew_point>-2.5</dew_point>
+        <icon>clear-night</icon>
+        <precipitation>0.0</precipitation>
+        <pressure_msl>XML-1021.5</pressure_msl>
+        <relative_humidity>40</relative_humidity>
+    </weather>
+    <sources>
+        <source_id>7003</source_id>
+        <sunshine>None</sunshine>
+        <temperature>XML-10.6</temperature>
+        <timestamp>2020-04-21T00:00:00+00:00</timestamp>
+        <visibility>50000</visibility>
+        <wind_direction>70</wind_direction>
+        <wind_gust_direction>90</wind_gust_direction>
+        <wind_gust_speed>27.7</wind_gust_speed>
+        <wind_speed>12.6</wind_speed>
+    </sources>
+</root>
