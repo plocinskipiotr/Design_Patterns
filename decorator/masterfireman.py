@@ -1,5 +1,5 @@
 """
-Fireman class should be decorated person class
+Master fireman class should be decorated fireman class
 It implements iperson interface
 """
 
@@ -7,14 +7,15 @@ from Ifireman import IFireman
 from Iperson import IPerson
 
 
-class Fireman(IPerson, IFireman):
-    """Fireman class, decorated person"""
+class MasterFireman(IPerson, IFireman):
+    """Master fireman class, decorated person"""
 
-    def __init__(self, name, surname, age, grade='regular'):
+    def __init__(self, name, surname, age, ifireman, grade='master'):
         self.name = name
         self.surname = surname
         self.age = age
         self.grade = grade
+        self.fireman = ifireman
 
     @property
     def age(self):
@@ -54,10 +55,8 @@ class Fireman(IPerson, IFireman):
 
     @staticmethod
     def put_out_the_fire():
-        print(__name__ + " is putting out the fire with water")
+        print(__name__ + " is putting out the fire with super water")
 
     def __str__(self):
-        return 'Name: ' + self.name + \
-               '\nSurname: ' + self.surname + \
-               '\nAge: ' + str(self.age) + \
-               '\nGrade: ' + self.grade
+        return 'Name: ' + self.name + '\nSurname: ' + self.surname + \
+               '\nAge: ' + str(self.age) + '\nGrade: ' + self.grade

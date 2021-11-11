@@ -1,5 +1,5 @@
 """
-Person interface
+Fireman interface
 """
 
 from abc import ABCMeta, abstractmethod

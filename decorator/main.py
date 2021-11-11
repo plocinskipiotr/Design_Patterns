@@ -2,17 +2,15 @@
 Main loop for decorator example
 """
 
-from person import Person
 from fireman import Fireman
-from master_fireman import MasterFireman
+from masterfireman import MasterFireman
 
 if __name__ == '__main__':
-    PersonInstance = Person('person', 'person', 18)
-    FiremanInstance = Fireman(Person('fireman', 'fireman', 25))
-    MasterFiremanInstance = MasterFireman(FiremanInstance)
-    MasterFiremanInstance2 = MasterFireman(PersonInstance)
+    FiremanInstance = Fireman('Stanislaw', 'Niklaus', 25)
+    MasterFiremanInstance = MasterFireman('Tom', 'Hard', 30, FiremanInstance)
 
-    print(PersonInstance)
     print(FiremanInstance)
     print(MasterFiremanInstance)
-    print(MasterFiremanInstance2)
+
+    FiremanInstance.put_out_the_fire()
+    MasterFiremanInstance.put_out_the_fire()
