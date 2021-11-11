@@ -6,7 +6,9 @@ Factory,
 Abstract Factory,
 Singleton,
 Prototype,
-Adapter
+Adapter,
+Decorator,
+Bridge
 
 Currently working on:
-Bridge
+Proxy
