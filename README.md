@@ -8,7 +8,8 @@ Singleton,
 Prototype,
 Adapter,
 Decorator,
-Bridge
+Bridge,
+Proxy
 
 Currently working on:
-Proxy
+Composite
