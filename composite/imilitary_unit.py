@@ -4,6 +4,7 @@ from abc import ABCMeta, abstractmethod
 
 
 class IMilitaryUnit(metaclass=ABCMeta):
+    """ Interface military unit """
 
     @staticmethod
     @abstractmethod
