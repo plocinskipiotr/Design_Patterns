@@ -8,10 +8,10 @@ from food_handle import FoodHandle
 from base_handle import BaseHandler
 
 if __name__ == '__main__':
-    unarmed_request = "isUnarmed"
-    wound_request = "isWounded"
-    hungry_request = "isHungry"
-    dead_request = "isDead"
+    UNARMED_REQUEST = "isUnarmed"
+    WOUND_REQUEST = "isWounded"
+    HUNGRY_REQUEST = "isHungry"
+    DEAD_REQUEST = "isDead"
 
     base_handler = BaseHandler()
     weapon_handler = ArmoryHandle()
@@ -22,7 +22,7 @@ if __name__ == '__main__':
     weapon_handler.set_next(food_handler)
     food_handler.set_next(first_aid_handler)
 
-    base_handler.handle(unarmed_request)
-    base_handler.handle(wound_request)
-    base_handler.handle(hungry_request)
-    base_handler.handle(dead_request)
+    base_handler.handle(UNARMED_REQUEST)
+    base_handler.handle(WOUND_REQUEST)
+    base_handler.handle(HUNGRY_REQUEST)
+    base_handler.handle(DEAD_REQUEST)

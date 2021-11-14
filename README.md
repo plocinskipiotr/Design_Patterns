@@ -9,7 +9,8 @@ Prototype,
 Adapter,
 Decorator,
 Bridge,
-Proxy
+Proxy,
+Composite
 
 Currently working on:
-Composite
+Command_chain
