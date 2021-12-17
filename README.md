@@ -11,6 +11,8 @@ Decorator,
 Bridge,
 Proxy,
 Composite,
+Command Chain,
+Command,
 
 Currently working on:
-Command_chain
+Iterator
