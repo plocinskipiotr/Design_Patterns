@@ -10,7 +10,9 @@ Adapter,
 Decorator,
 Bridge,
 Proxy,
-Composite
+Composite,
+Command Chain,
+Command,
 
 Currently working on:
-Command_chain
+Iterator
