@@ -7,7 +7,7 @@ from vehicle_enum import VehicleState
 
 
 class Car(Vehicle):
-
+    """Car class"""
     def __init__(self, mediator, name):
         self.mediator = mediator
         self.name = name

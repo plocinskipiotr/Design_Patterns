@@ -6,6 +6,7 @@ from vehicle import Vehicle
 
 
 class Bus(Vehicle):
+    """Bus class"""
 
     def __init__(self, mediator, name):
         self.mediator = mediator
