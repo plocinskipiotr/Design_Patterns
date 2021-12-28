@@ -13,6 +13,7 @@ Proxy,
 Composite,
 Command Chain,
 Command,
+Iterator
 
 Currently working on:
-Iterator
+Mediator

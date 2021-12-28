@@ -1,0 +1,67 @@
+"""
+Main loop for iterator example
+"""
+
+from custom_list import CustomList
+
+if __name__ == '__main__':
+    lst = CustomList([6,5,1,5,3,7,8,9])
+
+    print("basic iterator")
+    results_1 = list()
+    a = lst.create_iterator()
+    print(a)
+    print(a.has_more())
+    results_1.append(a.get_next())
+    print(a)
+    print(a.has_more())
+    results_1.append(a.get_next())
+    print(a)
+    print(a.has_more())
+    results_1.append(a.get_next())
+    print(a)
+    print(a.has_more())
+    results_1.append(a.get_next())
+    print(a)
+    print(a.has_more())
+    results_1.append(a.get_next())
+    print(a)
+    print(a.has_more())
+    results_1.append(a.get_next())
+    print(a)
+    print(a.has_more())
+    results_1.append(a.get_next())
+    print(a)
+    print(a.has_more())
+    results_1.append(a.get_next())
+    print(a)
+    print(a.has_more())
+    results_1 = [x for x in results_1 if x is not None]
+    print(results_1)
+
+    print("filtering iterator")
+    results_2 = list()
+    b = lst.create_filtering_iterator(3)
+    print(b)
+    print(b.has_more())
+    results_2.append(b.get_next())
+    print(b)
+    print(b.has_more())
+    results_2.append(b.get_next())
+    print(b)
+    print(b.has_more())
+    results_2.append(b.get_next())
+    print(b)
+    print(b.has_more())
+    results_2.append(b.get_next())
+    print(b)
+    print(b.has_more())
+    results_2.append(b.get_next())
+    print(b)
+    print(b.has_more())
+    results_2.append(b.get_next())
+    print(b)
+    print(b.has_more())
+
+    results_2 = [x for x in results_2 if x is not None]
+    print(results_2)
