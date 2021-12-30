@@ -2,7 +2,6 @@ Amateur self development design pattern course in python
 
 Realised:
 Builder, Factory, Abstract Factory, Singleton, Prototype, Adapter, Decorator, Bridge, Proxy, Composite, Command Chain,
-Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor
+Command, Iterator, Mediator, Memento, Observer, State, Strategy, Visitor, Template Method
 
-Currently working on:
-Template Method
+Demo version released
