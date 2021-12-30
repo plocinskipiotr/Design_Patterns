@@ -6,7 +6,7 @@ LowSkilledMarine subclass
 MediumSkilledMarine subclass
 HighSkilledMarine subclass
 """
-from factory.irange_unit import IRangeUnit
+from creational.factory.irange_unit import IRangeUnit
 
 
 class Marine(IRangeUnit):
